@@ -167,9 +167,9 @@ vertical-align: middle;
 }
 
 .header-img {
-  width: 90%;
+  width: 50%;
   height: auto;
-  max-width: 500px;
+  max-width: 400px;
   display: block;
-  margin: 20px auto; /* adds top/bottom spacing */
+  margin: 45px auto; /* adds top/bottom spacing */
 }
