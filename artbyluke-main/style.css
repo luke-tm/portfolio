@@ -158,18 +158,12 @@ margin: 0 0.8em 0.2em -1.6em;
 vertical-align: middle;
 }
 
+/* === Responsive Header Image === */
 .header-img {
-  width: 100%;
-  height: auto;
-  max-width: 1000px;  /* Optional: sets a max size for huge screens */
   display: block;
-  margin: 0 auto;     /* Centers the image horizontally */
+  margin: 20px auto;
+  width: 90%;         /* Responsive width */
+  max-width: 400px;   /* Controls how big it gets on laptop */
+  height: auto;       /* Maintains aspect ratio */
 }
 
-.header-img {
-  width: 50%;
-  height: auto;
-  max-width: 400px;
-  display: block;
-  margin: 45px auto; /* adds top/bottom spacing */
-}
