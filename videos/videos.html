@@ -1,1 +1,59 @@
-/*comment*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Works – Luke M</title>
+  <link rel="stylesheet" href="../style.css" />
+
+  <!-- Open Graph / iMessage Preview Metadata (Optional) -->
+  <meta property="og:title" content="Video Works – Luke M" />
+  <meta property="og:description" content="Expanded video work from Luke Magette." />
+  <meta property="og:image" content="https://luke-tm.github.io/images/video-preview.jpg" />
+  <meta property="og:url" content="https://luke-tm.github.io/videos/index.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+
+<body>
+  <!-- Back to Home Link -->
+  <p><a href="../index.html">← Back to Home</a></p>
+
+  <!-- Page Header -->
+  <header>
+    <h1 class="title">VIDEO WORKS</h1>
+    <p>Browse select projects with short previews. Click any to view more.</p>
+  </header>
+
+  <!-- Begin Video Gallery Container -->
+  <section class="video-gallery">
+
+    <!-- Video Block 1: MOOD RING -->
+    <div class="video-preview">
+      <!-- Embed small silent looping preview clip -->
+      <a href="mood-ring.html">
+        <video autoplay muted loop playsinline class="preview-clip">
+          <source src="../video-clips/mood-ring-preview.mp4" type="video/mp4" />
+          <!-- Fallback text for unsupported browsers -->
+          Your browser does not support the video tag.
+        </video>
+      </a>
+      <!-- Title of the video work -->
+      <h2><a href="mood-ring.html">“MOOD RING” BY SOFIE LOPEZ – 2025</a></h2>
+    </div>
+
+    <!-- Video Block 2: ORANGES -->
+    <div class="video-preview">
+      <a href="oranges.html">
+        <video autoplay muted loop playsinline class="preview-clip">
+          <source src="../video-clips/oranges-preview.mp4" type="video/mp4" />
+        </video>
+      </a>
+      <h2><a href="oranges.html">“ORANGES” BY KIERA LYNN – 2023</a></h2>
+    </div>
+
+    <!-- Add more blocks below by duplicating a <div class="video-preview">...</div> -->
+
+  </section>
+
+</body>
+</html>
