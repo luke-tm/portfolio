@@ -147,3 +147,10 @@ iframe {
     max-width: 90vw;
   }
 }
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
