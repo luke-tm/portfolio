@@ -10,8 +10,8 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   font-weight: 500;           
-  font-size: 1.2em;
-  line-height: 1.;            /* ✅ Tighter line spacing */
+  font-size: 1.5em;
+  line-height: 0.9;            /* ✅ Tighter line spacing */
   margin: 0 auto;
   max-width: 36em;
   padding: 50px;
@@ -48,16 +48,17 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2.8em;
-  font-weight: 800;            /* ✅ Slightly bolder main title */
-  margin-bottom: 1em;
+  font-size: 2.5em;
+  font-weight: 1000;            /* ✅ Slightly bolder main title */
+  margin-bottom: 0.6em;
 }
 
 h2, h3, h4, h5, h6 {
   text-align: left;
-  font-weight: 600;            /* ✅ Medium-weight subheaders */
-  margin-top: 2.4em;
-  margin-bottom: 0.5em;
+   font-size: 1.9em;
+  font-weight: 800;            /* ✅ Medium-weight subheaders */
+  margin-top: 2em;
+  margin-bottom: 0.2em;
 }
 
 /* -----------------------------
