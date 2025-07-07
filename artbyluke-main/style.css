@@ -9,9 +9,9 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  font-weight: 500;           
+  font-weight: 600;           
   font-size: 1.5em;
-  line-height: 0.9;            /* ✅ Tighter line spacing */
+  line-height: 1.0;            /* ✅ Tighter line spacing */
   margin: 0 auto;
   max-width: 36em;
   padding: 50px;
@@ -49,16 +49,16 @@ body {
 h1 {
   text-align: center;
   font-size: 2.5em;
-  font-weight: 1000;            /* ✅ Slightly bolder main title */
-  margin-bottom: 0.6em;
+  font-weight: 1200;            /* ✅ Slightly bolder main title */
+  margin-bottom: 0.4em;
 }
 
 h2, h3, h4, h5, h6 {
   text-align: left;
    font-size: 1.9em;
-  font-weight: 800;            /* ✅ Medium-weight subheaders */
-  margin-top: 2em;
-  margin-bottom: 0.2em;
+  font-weight: 1000;            /* ✅ Medium-weight subheaders */
+  margin-top: 1.2em;
+  margin-bottom: 0.1em;
 }
 
 /* -----------------------------
