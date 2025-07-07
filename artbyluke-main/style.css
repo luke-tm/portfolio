@@ -1,4 +1,18 @@
-img {
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+/* Force image dimensions strictly */
+.header-img {
   width: 300px !important;
-  border: 4px solid blue !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  border: 2px solid red; /* debug */
 }
