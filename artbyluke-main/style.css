@@ -1,10 +1,9 @@
-
-/* Reset image margin on body */
 body {
   margin: 0 auto;
   max-width: 36em;
   padding: 50px;
   font-family: sans-serif;
+  font-size: 1em;
   hyphens: auto;
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
@@ -19,17 +18,24 @@ body {
 }
 
 .header-img {
-  width: 300px;
-  height: auto;
+  width: 300px !important;
+  height: auto !important;
   display: block;
   margin: 0 auto;
+  border: 2px solid red; /* Optional debug */
+}
+
+.caption {
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  margin-top: 0.5em;
 }
 
 @media (max-width: 600px) {
   .header-img {
-    width: 90vw;
+    width: 90vw !important;
   }
-}
 
   body {
     font-size: 0.9em;
