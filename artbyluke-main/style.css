@@ -1,18 +1,12 @@
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  overflow: hidden;
-  margin-bottom: 2em;
+/* General Layout */
+html {
+  background-color: #fdfdfd;
+  color: #1a1a1a;
+  font-family: sans-serif;
 }
 
-/* Force image dimensions strictly */
-.header-img {
-  width: 300px !important;
-  height: auto !important;
-  display: block;
+body {
   margin: 0 auto;
-  object-fit: contain;
-  border: 2px solid red; /* debug */
-}
+  max-width: 36em; /* Keeps content narrow for readability */
+  padding: 50px;
+  font-si
