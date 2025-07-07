@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  font-weight: 600;           
+  font-weight: 500;           
   font-size: 1.5em;
   line-height: 1.0;            /* ✅ Tighter line spacing */
   margin: 0 auto;
@@ -49,7 +49,7 @@ body {
 h1 {
   text-align: center;
   font-size: 2.5em;
-  font-weight: 1200;            /* ✅ Slightly bolder main title */
+  font-weight: 1400;            /* ✅ Slightly bolder main title */
   margin-bottom: 0.4em;
 }
 
