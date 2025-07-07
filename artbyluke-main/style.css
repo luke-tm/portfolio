@@ -1,9 +1,4 @@
-/* Basic layout and typography */
-html {
-  background-color: #fdfdfd;
-  color: #1a1a1a;
-}
-
+/* Reset image margin on body */
 body {
   margin: 0 auto;
   max-width: 36em;
@@ -14,125 +9,38 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* Responsive adjustments */
+/* 🎯 Fix: Updated image container */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+/* 🎯 Fix: Limit image width explicitly */
+.header-img {
+  width: 100%;
+  max-width: 400px;   /* ✅ Reduce this if still too large */
+  height: auto;
+  display: block;
+}
+
+/* Optional caption */
+.caption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+/* Responsive tweak */
 @media (max-width: 600px) {
+  .header-img {
+    max-width: 90vw;  /* Ensures smaller viewports shrink the image */
+  }
+
   body {
     font-size: 0.9em;
     padding: 12px;
   }
-
-  h1 {
-    font-size: 1.8em;
-  }
-
-  .header-img {
-    max-width: 90%;
-  }
-}
-
-/* Header image container */
-.image-container {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.header-img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.caption {
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
-  margin-top: 8px;
-}
-
-/* Headings and paragraphs */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.4em;
-}
-
-h5, h6 {
-  font-size: 1em;
-  font-style: italic;
-}
-
-h6 {
-  font-weight: normal;
-}
-
-p {
-  margin: 1em 0;
-}
-
-/* Links */
-a {
-  color: #1a1a1a;
-}
-
-a:visited {
-  color: #1a1a1a;
-}
-
-/* Lists */
-ol, ul {
-  padding-left: 1.7em;
-  margin-top: 1em;
-}
-
-li > ol, li > ul {
-  margin-top: 0;
-}
-
-/* Blockquotes */
-blockquote {
-  margin-left: 1.7em;
-  padding-left: 1em;
-  border-left: 2px solid #e6e6e6;
-  color: #606060;
-}
-
-/* Code and Pre */
-code {
-  font-family: Menlo, Monaco, Consolas, monospace;
-  font-size: 85%;
-}
-
-pre {
-  overflow: auto;
-  margin: 1em 0;
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  overflow-x: auto;
-  display: block;
-}
-
-th, td {
-  padding: 0.5em;
-  border: 1px solid #1a1a1a;
-}
-
-caption {
-  margin-bottom: 0.75em;
-}
-
-/* Header section */
-header {
-  margin-bottom: 4em;
-  text-align: center;
-}
-
-/* Misc. spacing */
-hr {
-  border: none;
-  border-top: 1px solid #1a1a1a;
-  margin: 1em 0;
 }
