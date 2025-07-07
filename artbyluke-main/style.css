@@ -1,29 +1,14 @@
-/* General Layout */
-html {
-  background-color: #fdfdfd;
-  color: #1a1a1a;
-  font-family: sans-serif;
-}
-
-body {
-  margin: 0 auto;
-  max-width: 36em; /* Keeps content narrow for readability */
-  padding: 50px;
-  font-size: 1em;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  text-rendering: optimizeLegibility;
-}
-
-/* Header Image Container */
-.image-container {
+/* ✅ Full-width header image */
+.header-image-container {
   text-align: center;
   margin-bottom: 2em;
+  width: 100%;
+  background-color: #fdfdfd;
 }
 
 .header-img {
   width: 100%;
-  max-width: 400px; /* ✅ Control size on large screens */
+  max-width: 800px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -32,62 +17,30 @@ body {
 .caption {
   font-size: 0.9em;
   color: #555;
+  text-align: center;
   margin-top: 0.5em;
-  text-align: center;
 }
 
-/* Headings and Paragraphs */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.4em;
+/* ✅ Constrained main content */
+.content {
+  margin: 0 auto;
+  max-width: 36em;
+  padding: 50px;
+  font-family: sans-serif;
+  font-size: 1em;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
 }
 
-h1.title {
-  text-align: center;
-}
-
-p {
-  margin: 1em 0;
-}
-
-/* Links */
-a {
-  color: #1a1a1a;
-}
-
-a:visited {
-  color: #1a1a1a;
-}
-
-/* Lists */
-ul, ol {
-  padding-left: 1.5em;
-}
-
-/* Calendar Container (forces iframe to match page width) */
-.calendar-container iframe {
-  width: 100%;
-  border: none;
-  max-width: 100%;
-}
-
-/* Navigation */
-nav {
-  text-align: center;
-  margin-top: 1em;
-}
-
-nav a {
-  margin: 0 0.3em;
-}
-
-/* Responsive Tweaks */
+/* Responsive tweak */
 @media (max-width: 600px) {
-  body {
-    padding: 12px;
-    font-size: 0.9em;
+  .header-img {
+    width: 90vw;
   }
 
-  .header-img {
-    max-width: 90vw;
+  .content {
+    padding: 12px;
+    font-size: 0.9em;
   }
 }
