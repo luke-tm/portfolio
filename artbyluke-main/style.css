@@ -38,7 +38,6 @@ body {
 
 .header-img {
   max-width: 100%;
-  width: 36em;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -54,7 +53,6 @@ body {
 
 .preview-clip {
   max-width: 100%;
-  width: 600px;
   height: auto;
   display: block;
   margin: 0 auto;
