@@ -21,6 +21,11 @@ body {
 /* -----------------------------
    Header Image Container
 ----------------------------- */
+.main-content {
+  max-width: 36em;
+  margin: 0 auto;
+  padding: 0;
+}
 
 .image-container,
 .header-image-container {
