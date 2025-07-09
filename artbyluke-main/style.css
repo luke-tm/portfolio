@@ -9,53 +9,42 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  font-weight: 500;           
+  font-weight: 500;
   font-size: 1.5em;
-  line-height: 1.0;            /* ✅ Tighter line spacing */
+  line-height: 1.0;
   margin: 0 auto;
   max-width: 36em;
   padding: 50px;
-  text-rendering: geometricPrecision; /* ✅ sharper, denser */
+  text-rendering: geometricPrecision;
 }
 
-/* -----------------------------
-   Header Image Container
------------------------------ */
 .main-content {
   max-width: 36em;
   margin: 0 auto;
   padding: 0;
 }
 
-.image-container,
-.header-image-container {
-  text-align: center;
-  width: 100%;
-  max-width: 36em;  /* Constrain width to match content */
-  margin: 0 auto 2em auto;
-  overflow-x: hidden;
-}
+/* -----------------------------
+   Reusable Media Class (Images & Video)
+----------------------------- */
 
-.header-img {
+.media {
   max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
+/* -----------------------------
+   Caption
+----------------------------- */
 
 .caption {
   font-size: 0.9em;
   color: #555;
   text-align: center;
   margin-top: 0.5em;
-}
-
-.preview-clip {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 
 /* -----------------------------
@@ -65,29 +54,20 @@ body {
 h1 {
   text-align: center;
   font-size: 2.5em;
-  font-weight: 1400;            /* ✅ Slightly bolder main title */
+  font-weight: 1400;
   margin-bottom: 0.4em;
 }
 
 h2, h3, h4, h5, h6 {
   text-align: left;
-   font-size: 1.9em;
-  font-weight: 1000;            /* ✅ Medium-weight subheaders */
+  font-size: 1.9em;
+  font-weight: 1000;
   margin-top: 1.2em;
   margin-bottom: 0.1em;
 }
 
 /* -----------------------------
-   Centered Intro Text
------------------------------ */
-
-.intro-paragraph {
-  text-align: center;
-  font-weight: 400;
-}
-
-/* -----------------------------
-   Content Elements
+   Text Content
 ----------------------------- */
 
 p {
@@ -141,7 +121,7 @@ th, td {
 }
 
 /* -----------------------------
-   Calendar iFrame
+   iFrame Support
 ----------------------------- */
 
 iframe {
@@ -159,8 +139,9 @@ iframe {
     padding: 12px;
   }
 
-  .header-img {
-    max-width: 90vw;
+  .media {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -169,4 +150,3 @@ iframe {
   font-size: 1.6em;
   margin-top: 1em;
 }
-
