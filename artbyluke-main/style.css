@@ -31,8 +31,8 @@ body {
 .header-image-container {
   text-align: center;
   width: 100%;
-  max-width: 100%;
-  margin-bottom: 2em;
+  max-width: 36em;  /* Constrain width to match content */
+  margin: 0 auto 2em auto;
   overflow-x: hidden;
 }
 
