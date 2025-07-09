@@ -36,6 +36,14 @@ body {
   margin: 0 auto;
 }
 
+.billboard-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;          /* or a fixed width like 700px */
+  max-width: 100%;
+  height: auto;
+}
+
 /* -----------------------------
    Caption
 ----------------------------- */
