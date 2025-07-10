@@ -10,11 +10,11 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 1em; /* ✅ Reduced from 1.5em */
-  font-weight: 500;
-  line-height: 1.4;
+  font-weight: 700;
+  line-height: 1;
   margin: 0 auto;
   max-width: 36em;
-  padding: 40px;
+  padding: 25px;
   text-rendering: geometricPrecision;
 }
 
