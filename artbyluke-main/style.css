@@ -10,7 +10,7 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 1em; /* ✅ Reduced from 1.5em */
-  font-weight: 600;
+  font-weight: 550;
   line-height: 0.85;
   margin: 0 auto;
   max-width: 36em;
@@ -50,7 +50,7 @@ body {
 ----------------------------- */
 
 .caption {
-  font-size: 0.9em;
+  font-size: 0.65em;
   color: #555;
   text-align: center;
   margin-top: 0.5em;
