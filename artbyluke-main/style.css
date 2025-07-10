@@ -9,12 +9,12 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
+  font-size: 1em; /* ✅ Reduced from 1.5em */
   font-weight: 500;
-  font-size: 1.5em;
-  line-height: 1.0;
+  line-height: 1.4;
   margin: 0 auto;
   max-width: 36em;
-  padding: 50px;
+  padding: 40px;
   text-rendering: geometricPrecision;
 }
 
@@ -25,26 +25,28 @@ body {
 }
 
 /* -----------------------------
-   Reusable Media Class (Images & Video)
+   Media Styling (Images & Video)
 ----------------------------- */
 
 .billboard-img {
   display: block;
   margin: 0 auto;
-  width: 80%;          /* or a fixed width like 700px */
+  width: 80%;
   max-width: 100%;
   height: auto;
 }
 
-.project-img {
+.project-img,
+.media {
   display: block;
   margin: 0 auto;
   max-width: 600px;
+  width: 100%;
   height: auto;
 }
 
 /* -----------------------------
-   Caption
+   Caption Text
 ----------------------------- */
 
 .caption {
@@ -55,99 +57,3 @@ body {
 }
 
 /* -----------------------------
-   Headings
------------------------------ */
-
-h1 {
-  text-align: center;
-  font-size: 2.5em;
-  font-weight: 1400;
-  margin-bottom: 0.4em;
-}
-
-h2, h3, h4, h5, h6 {
-  text-align: left;
-  font-size: 1.9em;
-  font-weight: 1000;
-  margin-top: 1.2em;
-  margin-bottom: 0.1em;
-}
-
-/* -----------------------------
-   Text Content
------------------------------ */
-
-p {
-  margin: 1em 0;
-}
-
-a {
-  color: #1a1a1a;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #1a1a1a;
-}
-
-ul, ol {
-  padding-left: 1.7em;
-  margin-top: 1em;
-}
-
-blockquote {
-  margin-left: 1.7em;
-  padding-left: 1em;
-  border-left: 2px solid #e6e6e6;
-  color: #606060;
-}
-
-code {
-  font-family: Menlo, Monaco, Consolas, monospace;
-  font-size: 85%;
-}
-
-pre {
-  overflow: auto;
-  margin: 1em 0;
-}
-
-/* -----------------------------
-   Tables
------------------------------ */
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1em;
-}
-
-th, td {
-  padding: 0.5em;
-  border: 1px solid #1a1a1a;
-}
-
-/* -----------------------------
-   iFrame Support
------------------------------ */
-
-iframe {
-  max-width: 100%;
-  border: 1px solid #ccc;
-}
-
-/* -----------------------------
-   Responsive Adjustments
------------------------------ */
-
-@media (max-width: 600px) {
-  .project-img {
-    max-width: 100%;
-  }
-}
-
-.project-title {
-  font-weight: bold;
-  font-size: 1.6em;
-  margin-top: 1em;
-}
