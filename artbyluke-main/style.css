@@ -18,6 +18,15 @@ body {
   text-rendering: geometricPrecision;
 }
 
+.section-label strong {
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 1em;
+  display: inline-block;
+}
+
 .main-content {
   max-width: 36em;
   margin: 0 auto;
