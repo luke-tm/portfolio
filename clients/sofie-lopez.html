@@ -3,88 +3,91 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sofie Lopez – Client Portfolio | Luke M</title>
+  <title>Sofie Lopez – Portfolio — Luke M</title>
   <link rel="stylesheet" href="../../artbyluke-main/style.css" />
 
-  <!-- Open Graph Metadata -->
-  <meta property="og:title" content="Sofie Lopez – Client Portfolio" />
-  <meta property="og:description" content="Selected video, photo, and design work for Sofie Lopez." />
-  <meta property="og:image" content="https://luke-tm.github.io/images/sofie-lopez-preview.jpg" />
+  <meta property="og:title" content="Sofie Lopez – Portfolio by Luke M" />
+  <meta property="og:description" content="Selected works created with Sofie Lopez, including videos, posters, concerts, and social media campaigns." />
+  <meta property="og:image" content="https://luke-tm.github.io/images/BillboardOpenGraph2.jpg" />
   <meta property="og:url" content="https://luke-tm.github.io/portfolio/clients/sofie-lopez.html" />
   <meta name="twitter:card" content="summary_large_image" />
 </head>
 
 <body>
-<div class="main-content">
 
-  <!-- 🔙 Navigation -->
-  <p>
-    <a href="../../index.html">← Back to Home</a> | 
-  </p>
+  <div class="content">
+    <!-- Navigation -->
+    <nav>
+      <a href="../../index.html">← Back to Homepage</a>
+    </nav>
 
-  <!-- 📌 Client Header -->
-  <header>
-    <h1 class="title">SOFIE LOPEZ</h1>
-    <p>Selected collaborations: music videos, live performances, promotional media.</p>
-  </header>
+    <!-- Page Header -->
+    <header>
+      <h1 class="title">Sofie Lopez</h1>
+      <p class="intro-paragraph">Video direction, concert visuals, posters, and social media content created in collaboration with <em>Sofie Lopez</em>.</p>
+    </header>
 
-  <!-- 🎬 Video Section -->
-  <section>
+    <!-- Video Section -->
     <h2>Video Projects</h2>
-    <div class="video-gallery">
-      <div class="video-preview">
-        <a href="../../videos/mood-ring/mood-ring.html">
-          <video autoplay muted loop playsinline class="media">
-            <source src="../../videos/videoclips/mood-ring-preview.mp4" type="video/mp4" />
-          </video>
-        </a>
-        <p class="project-title"><a href="../../videos/mood-ring/mood-ring.html">MOOD RING, 2025</a></p>
+    <div class="media-grid">
+      <div class="media">
+        <video controls poster="../../thumbnails/mood-ring-thumb.webp" class="media">
+          <source src="../../videos/mood-ring/mood-ring-preview.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p class="caption">“Mood Ring” (2025)</p>
+        <a href="../../videos/mood-ring/mood-ring.html" class="project-link">View Full Project →</a>
       </div>
 
-      <div class="video-preview">
-        <a href="../../videos/take-it-or-leave/take-it-or-leave.html">
-          <video autoplay muted loop playsinline class="media">
-            <source src="../../videos/videoclips/take-it-preview.mp4" type="video/mp4" />
-          </video>
-        </a>
-        <p class="project-title"><a href="../../videos/take-it-or-leave/take-it-or-leave.html">TAKE IT OR LEAVE, 2025</a></p>
+      <div class="media">
+        <video controls poster="../../thumbnails/take-it-or-leave-thumb.webp" class="media">
+          <source src="../../videos/take-it-or-leave/take-it-or-leave-preview.mp4" type="video/mp4" />
+        </video>
+        <p class="caption">“Take It or Leave” (2025)</p>
+        <a href="../../videos/take-it-or-leave/take-it-or-leave.html" class="project-link">View Full Project →</a>
       </div>
     </div>
-  </section>
 
-  <!-- 🖼️ Posters Section -->
-  <section>
-    <h2>Posters & Promotional Art</h2>
+    <!-- Posters Section -->
+    <h2>Posters</h2>
     <div class="poster-grid">
-      <img src="../../images/sofie-poster1.webp" alt="Concert poster 1" class="project-img" />
-      <img src="../../images/sofie-poster2.webp" alt="Concert poster 2" class="project-img" />
+      <div class="poster">
+        <img src="../../images/sofie-poster1.webp" alt="Concert Poster 1" class="media" />
+        <p class="caption">Concert Poster – 2024</p>
+      </div>
+      <div class="poster">
+        <img src="../../images/sofie-poster2.webp" alt="Concert Poster 2" class="media" />
+        <p class="caption">Single Release Poster – 2025</p>
+      </div>
     </div>
-  </section>
 
-  <!-- 📸 Concert Photos -->
-  <section>
-    <h2>Concert & Live Photos</h2>
-    <div class="photo-gallery">
-      <img src="../../images/sofie-concert1.jpg" alt="Sofie Lopez live 1" class="project-img" />
-      <img src="../../images/sofie-concert2.jpg" alt="Sofie Lopez live 2" class="project-img" />
-      <img src="../../images/sofie-concert3.jpg" alt="Sofie Lopez live 3" class="project-img" />
+    <!-- Concert Photos -->
+    <h2>Concert Photos</h2>
+    <div class="photo-grid">
+      <img src="../../images/sofie-concert1.webp" alt="Sofie Lopez live" class="media" />
+      <img src="../../images/sofie-concert2.webp" alt="Sofie Lopez performance" class="media" />
     </div>
-  </section>
 
-  <!-- 📱 Social Media Content -->
-  <section>
+    <!-- Social Media Content -->
     <h2>Social Media Content</h2>
-    <p>Short-form clips and promotional assets created for online campaigns.</p>
     <div class="social-grid">
-      <video autoplay muted loop playsinline class="media">
-        <source src="../../videos/videoclips/sofie-social1.mp4" type="video/mp4" />
-      </video>
-      <video autoplay muted loop playsinline class="media">
-        <source src="../../videos/videoclips/sofie-social2.mp4" type="video/mp4" />
-      </video>
+      <div class="media">
+        <video controls poster="../../thumbnails/sofie-social1.webp" class="media">
+          <source src="../../videos/social/sofie-social1.mp4" type="video/mp4" />
+        </video>
+        <p class="caption">Instagram Reel – 2025</p>
+      </div>
+      <div class="media">
+        <img src="../../images/sofie-social2.webp" alt="Social Post" class="media" />
+        <p class="caption">Social Post – 2025</p>
+      </div>
     </div>
-  </section>
 
-</div>
+    <!-- Footer Navigation -->
+    <nav>
+      <br>
+      <a href="../../index.html">← Back to Homepage</a>
+    </nav>
+  </div>
 </body>
 </html>
